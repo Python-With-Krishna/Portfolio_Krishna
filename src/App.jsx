@@ -185,7 +185,7 @@ function App() {
         </div>
         <div className="hero-img">
           <div className="hero-img-backdrop"></div>
-          <img src="/assets/portfilio-removebg-preview.png" alt="Krishna Prasad" />
+          <img src={`${import.meta.env.BASE_URL}assets/portfilio-removebg-preview.png`} alt="Krishna Prasad" />
         </div>
       </section>
 
@@ -195,7 +195,7 @@ function App() {
         <p className="section-subtitle">A brief insight into who I am and my professional aspirations</p>
         <div className="container split-container">
           <div className="about-img">
-            <img src="/assets/portfilio.png" alt="About Me" />
+            <img src={`${import.meta.env.BASE_URL}assets/portfilio.png`} alt="About Me" />
           </div>
           <div className="about-text">
             <h2>Developing with Logic and Dedication</h2>
@@ -256,7 +256,7 @@ function App() {
         <div className="projects-grid">
           <div className="project-card">
             <div className="project-img">
-              <img src="/assets/project2.png" alt="Easy Bike Rental System" />
+              <img src={`${import.meta.env.BASE_URL}assets/project2.png`} alt="Easy Bike Rental System" />
             </div>
             <div className="project-info">
               <h3>Easy Bike Rental System</h3>
@@ -280,7 +280,7 @@ function App() {
 
           <div className="project-card">
             <div className="project-img">
-              <img src="/assets/project!.png" alt="Automated Resume Screening" />
+              <img src={`${import.meta.env.BASE_URL}assets/project!.png`} alt="Automated Resume Screening" />
             </div>
             <div className="project-info">
               <h3>Automated Resume Screening</h3>
@@ -360,7 +360,7 @@ function App() {
             <div className="timeline-dot"></div>
             <div className="timeline-card">
               <div className="card-header">
-                <img src="/assets/Palamuru_University_logo.png" alt="Palamuru University Logo" className="college-logo" />
+                <img src={`${import.meta.env.BASE_URL}assets/Palamuru_University_logo.png`} alt="Palamuru University Logo" className="college-logo" />
                 <div>
                   <h3>Master of Computer Applications - MCA</h3>
                   <p className="college-name">Palamuru University, Telangana</p>
@@ -381,7 +381,7 @@ function App() {
             <div className="timeline-dot"></div>
             <div className="timeline-card">
               <div className="card-header">
-                <img src="/assets/DonBosco Logo.jpg" alt="Don Bosco College Logo" className="college-logo" />
+                <img src={`${import.meta.env.BASE_URL}assets/DonBosco Logo.jpg`} alt="Don Bosco College Logo" className="college-logo" />
                 <div>
                   <h3>B.Sc. Computer Science</h3>
                   <p className="college-name">Don Bosco Degree College, Hyderabad</p>
