@@ -256,28 +256,34 @@ ul {
 
 .hero-img {
   position: relative;
-  width: 380px;
-  height: 380px;
+  width: 350px;
+  height: 350px;
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: flex-end;
+  margin-top: 30px;
 }
 
 .hero-img::before {
   content: '';
   position: absolute;
+  bottom: 0;
+  left: 0;
   width: 100%;
   height: 100%;
   border-radius: 50%;
   border: 2px dashed rgba(139, 92, 246, 0.4);
   animation: spin 30s linear infinite;
   z-index: 1;
+  pointer-events: none;
 }
 
 .hero-img-backdrop {
   position: absolute;
-  width: 88%;
-  height: 88%;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
   border-radius: 50%;
   background: linear-gradient(185deg, rgba(139, 92, 246, 0.2) 0%, rgba(59, 130, 246, 0.05) 100%);
   border: 1px solid var(--border-color);
@@ -286,13 +292,22 @@ ul {
 }
 
 .hero-img img {
-  position: relative;
-  width: 90%;
-  height: 90%;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 95%;
+  height: 120%;
   object-fit: cover;
+  object-position: center top;
   z-index: 3;
-  border-radius: 50%;
+  border-radius: 0 0 175px 175px;
   filter: drop-shadow(0 10px 20px rgba(0,0,0,0.5));
+  transition: transform 0.3s ease;
+}
+
+.hero-img:hover img {
+  transform: translateX(-50%) scale(1.05);
 }
 
 @keyframes spin {
@@ -874,6 +889,10 @@ ul {
   .hero-img {
     width: 300px;
     height: 300px;
+  }
+
+  .hero-img img {
+    border-radius: 0 0 150px 150px;
   }
 
   .split-container {
