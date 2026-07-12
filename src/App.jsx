@@ -244,7 +244,7 @@ function App() {
           <div className="card">
             <i className="fas fa-laptop-code"></i>
             <h3>Web Development</h3>
-            <p>Creating interactive and highly responsive modern user interfaces using HTML, CSS, JavaScript, and React.</p>
+            <p>Creating interactive and highly responsive modern user interfaces using HTML, CSS, and JavaScript.</p>
           </div>
         </div>
       </section>
@@ -318,7 +318,6 @@ function App() {
               <span className="badge"><i className="fab fa-html5"></i> HTML</span>
               <span className="badge"><i className="fab fa-css3-alt"></i> CSS</span>
               <span className="badge"><i className="fab fa-js"></i> JavaScript</span>
-              <span className="badge"><i className="fab fa-react"></i> React</span>
             </div>
           </div>
 
@@ -364,7 +363,7 @@ function App() {
                 <div>
                   <h3>Master of Computer Applications - MCA</h3>
                   <p className="college-name">Palamuru University, Telangana</p>
-                  <span className="duration">2022 - 2024</span>
+                  <span className="duration">2023 - 2025</span>
                 </div>
               </div>
               <div className="card-body">
