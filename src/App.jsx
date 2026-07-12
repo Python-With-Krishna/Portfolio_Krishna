@@ -318,7 +318,6 @@ function App() {
               <span className="badge"><i className="fab fa-html5"></i> HTML</span>
               <span className="badge"><i className="fab fa-css3-alt"></i> CSS</span>
               <span className="badge"><i className="fab fa-js"></i> JavaScript</span>
-              <span className="badge"><i className="fab fa-react"></i> React</span>
             </div>
           </div>
 
