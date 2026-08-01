@@ -174,7 +174,7 @@ function App() {
               View My Work <i className="fas fa-arrow-right"></i>
             </button>
             <a 
-              href="https://drive.google.com/file/d/19Z_jReYv7k-W87wapALvbnhGhqw86n6d/view?usp=drive_link" 
+              href="https://drive.google.com/file/d/1fa0xS5GsuBiX00fqkj9WCPKTAJQMMsRV/view?usp=drive_link" 
               className="btn btn-outline" 
               target="_blank" 
               rel="noopener noreferrer"

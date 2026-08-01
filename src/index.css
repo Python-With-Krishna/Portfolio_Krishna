@@ -96,6 +96,7 @@ ul {
 .logo-accent {
   background: var(--gradient-accent);
   -webkit-background-clip: text;
+  background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
@@ -180,6 +181,7 @@ ul {
   margin-bottom: 12px;
   background: linear-gradient(to right, #fff, #cbd5e1);
   -webkit-background-clip: text;
+  background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
@@ -332,6 +334,7 @@ ul {
   margin-bottom: 12px;
   background: linear-gradient(to right, #fff, #a78bfa);
   -webkit-background-clip: text;
+  background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
@@ -438,6 +441,7 @@ ul {
   font-size: 38px;
   background: var(--gradient-accent);
   -webkit-background-clip: text;
+  background-clip: text;
   -webkit-text-fill-color: transparent;
   margin-bottom: 24px;
   display: inline-block;
@@ -814,6 +818,7 @@ ul {
   margin-bottom: 20px;
   background: var(--gradient-accent);
   -webkit-background-clip: text;
+  background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
