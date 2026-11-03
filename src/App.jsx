@@ -142,7 +142,7 @@ function App() {
     }
   };
 
-  const resumeUrl = "https://drive.google.com/file/d/1HeZo1d7vW5AaPtv6wo9P20Vaq8oPuisK/view?usp=drive_link";
+  const resumeUrl = "https://drive.google.com/file/d/19VgJCm8fpV9d3AQCsgJ4Auc0B99WUyCu/view?usp=drive_link";
 
   return (
     <>
